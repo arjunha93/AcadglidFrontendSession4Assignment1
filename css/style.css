@@ -1,0 +1,18 @@
+/*Defining default styling to div element*/
+#maindiv{
+    width: 500px;
+    position: absolute;
+    padding: 20px;
+    margin: 30px;
+    background-color: antiquewhite;
+    color:olivedrab;
+    border:1px solid aqua;
+}
+/*Defining styles for pseudoclass,hover.
+1.Font-weight to Bold
+2.font-color to bold
+*/
+#maindiv:hover{
+    color:blueviolet;
+    font-weight: bold;
+}

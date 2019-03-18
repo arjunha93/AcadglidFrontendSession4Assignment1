@@ -1,20 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-      <!-- Global js file included here -->
-    <script type="text/javascript" src="./js/main.js"></script>
-      <!-- Global Stylesheet included here-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-<!--
-Main div started here with id "maindiv".
-Use id selector to play with it
--->
-    <div id="maindiv">
-      <!-- Content inside the div-->
-        <h3>Acadglid:</h3>
-        <p>Acadglid provides realtime training on FrontEnd Development..!!</p>
+<style>
+    .speech-bubble {
+        background-color: #f8f8f8;
+        border: 1px solid #c8c8c8;
+        border-radius: 5px;
+        width: 110px;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+    }
+
+    .speech-bubble .arrow {
+        border-style: solid;
+        position: absolute;
+    }
+
+    .bottom {
+        border-color: #c8c8c8 transparent transparent transparent;
+        border-width: 8px 8px 0px 8px;
+        bottom: -8px;
+    }
+    .bottom:after {
+    border-color: #f8f8f8 transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
+</style>
+
+<body>
+    <div class="speech-bubble">
+        <div class="arrow bottom right"></div>
+        Thinking....
     </div>
-  </body>
+</body>
+
 </html>
